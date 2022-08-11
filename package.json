@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ui-test": "cd client && yarn test",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}

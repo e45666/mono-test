@@ -1,0 +1,11 @@
+os: linux
+dist: focal
+language: node_js
+node_js: lts/*
+
+install:
+  - cd client && yarn install && cd ..
+  - yarn install
+script:
+  - yarn run ui-test
+  - yarn test
